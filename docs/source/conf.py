@@ -1,8 +1,13 @@
 # Configuration file for the Sphinx documentation builder.
 import os
 import sys
+from sphinx.util import logging
 
-sys.path.append(os.path.realpath('../..'))
+log = logging.getLogger('sphinx.conf')
+
+module_path = os.path.realpath("./../../")
+sys.path.append(module_path)
+log.warning("Added path %s to sys.path", module_path)
 
 # -- Project information
 
