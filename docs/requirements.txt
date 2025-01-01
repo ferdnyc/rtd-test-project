@@ -1,3 +1,4 @@
 sphinx==7.1.2
+sphinx_autorun
 furo
 sphinx_build_compatibility @ git+https://github.com/readthedocs/sphinx-build-compatibility.git

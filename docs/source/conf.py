@@ -1,4 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
+import os
+import sys
+
+sys.path.append(os.path.realpath('../..'))
 
 # -- Project information
 
@@ -18,6 +22,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx_build_compatibility.extension',
+    'sphinx_autorun',
 ]
 
 intersphinx_mapping = {
