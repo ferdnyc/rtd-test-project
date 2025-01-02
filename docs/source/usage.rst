@@ -28,7 +28,9 @@ will raise an exception.
 
 For example:
 
->>> import rtd_test_project
->>> rtd_test_project.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+.. runblock:: pycon
+
+    >>> import rtd_test_project
+    >>> rtd_test_project.get_random_ingredients()
+    ['shells', 'gorgonzola', 'parsley']
 
