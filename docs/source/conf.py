@@ -7,7 +7,7 @@ log = logging.getLogger('sphinx.conf')
 
 module_path = os.path.realpath("./../../")
 sys.path.append(module_path)
-log.warning("Added path %s to sys.path", module_path)
+log.info("Added path %s to sys.path", module_path)
 
 # -- Project information
 
