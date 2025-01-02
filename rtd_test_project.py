@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 RTD Test - Python library for cooks and food lovers.
 """
@@ -21,3 +22,6 @@ def get_random_ingredients(kind=None):
     :rtype: list[str]
     """
     return ["shells", "gorgonzola", "parsley"]
+
+if __name__ == "__main__":
+    print(get_random_ingredients())
